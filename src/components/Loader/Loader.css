@@ -1,0 +1,50 @@
+.loader-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  width: 100%;
+}
+
+.loader {
+  position: relative;
+  width: 3rem;
+  height: 3rem;
+}
+
+.loader:before,
+.loader:after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  animation: loader-rotate 2s linear infinite;
+}
+
+.loader:before {
+  background-color: #ffffff;
+  opacity: 0.5;
+}
+
+.loader:after {
+  background-color: #000000;
+}
+
+@keyframes loader-rotate {
+  0% {
+    transform: rotate(0);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+@media (min-width: 768px) {
+  .loader {
+    width: 5rem;
+    height: 5rem;
+  }
+}

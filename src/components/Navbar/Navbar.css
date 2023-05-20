@@ -1,0 +1,23 @@
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script&family=Pacifico&display=swap");
+nav {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: space-evenly;
+  padding: 4px;
+  box-shadow: 1px solid gray;
+  background: #f0e5e5;
+}
+nav div ul {
+  display: flex;
+  align-items: center;
+}
+nav div ul li {
+  list-style: none;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.logo {
+  font-family: "Pacifico", cursive;
+  font-size: 30px;
+}
