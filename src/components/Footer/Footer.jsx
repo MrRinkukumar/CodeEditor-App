@@ -7,7 +7,7 @@ function Footer() {
     <footer className="footer">
       <div className="footer-container">
         <div className="footer-left">
-          <p> &copy; 2023 Unit Calculator. All Rights Reserved.</p>
+          <p> &copy; 2023 code pad. All Rights Reserved.</p>
         </div>
         <div className="footer-right">
           <ul>
